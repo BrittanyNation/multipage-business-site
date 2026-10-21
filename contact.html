@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact / Book — PureNest Cleaning</title><link rel="stylesheet" href="styles.css"></head>
+<body><a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="container header-inner"><a class="logo" href="index.html">Pure<span>Nest</span> Cleaning</a>
+<button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">Menu</button>
+<nav class="main-nav" id="main-nav" aria-label="Main navigation"><ul>
+<li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li>
+<li><a href="about.html">About</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html" class="active" aria-current="page">Contact / Book</a></li></ul></nav></div></header>
+<main id="main"><section class="section"><div class="container">
+<h1>Contact / Request a booking</h1>
+<p class="lead">Tell us about your home and the service you'd like. In a live client site this form would connect to email / CRM; here it is front-end only.</p>
+<div class="form-note" role="note"><strong>Demo note:</strong> This form does not submit anywhere and no data is collected. Submitting shows a thank-you message via JavaScript to demonstrate the intended user experience.</div>
+
+<form id="booking-form" novalidate>
+<label for="name">Full name</label><input id="name" name="name" type="text" autocomplete="name" required>
+<label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required>
+<label for="phone">Phone (optional)</label><input id="phone" name="phone" type="tel" autocomplete="tel">
+<label for="service">Service needed</label>
+<select id="service" name="service" required><option value="">Choose a service…</option><option>Standard Clean</option><option>Deep Clean</option><option>Move-In / Move-Out</option><option>Recurring Plan</option><option>Not sure yet</option></select>
+<label for="date">Preferred date</label><input id="date" name="date" type="date">
+<label for="bedrooms">Bedrooms</label>
+<select id="bedrooms" name="bedrooms"><option value="">Select…</option><option>Studio / 1</option><option>2</option><option>3</option><option>4</option><option>5+</option></select>
+<label for="bathrooms">Bathrooms</label>
+<select id="bathrooms" name="bathrooms"><option value="">Select…</option><option>1</option><option>2</option><option>3</option><option>4+</option></select>
+<label for="pets">Pets in the home?</label>
+<select id="pets" name="pets"><option value="">Select…</option><option>No pets</option><option>Dog(s)</option><option>Cat(s)</option><option>Other</option></select>
+<label for="notes">Notes — access, priorities, or questions</label><textarea id="notes" name="notes" placeholder="e.g. Please focus on kitchen and primary bathroom; friendly dog on site."></textarea>
+<p><button class="btn" type="submit">Request Booking</button></p>
+<div id="form-success" class="success" hidden tabindex="-1"><strong>Thank you!</strong> Your request has been noted in this demo. In a live PureNest site, we'd confirm your booking by email or text within one business day.</div>
+</form>
+
+<section class="section alt"><h2>Other ways to reach us (sample)</h2><p>Email: hello@example.com<br>Phone: (555) 010-2026<br>Hours: Monday–Saturday, 8am–6pm</p></section>
+</div></section></main>
+<footer class="site-footer"><div class="container footer-grid"><div><strong>PureNest Cleaning</strong><p>Fictional portfolio concept. No real bookings are taken.</p></div><div><h3>Pages</h3><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="blog.html">Blog</a></li></ul></div><div><h3>Contact (sample)</h3><p>hello@example.com<br>(555) 010-2026</p></div></div><div class="container"><small>© 2026 PureNest Cleaning — Portfolio concept by Brittany Nation.</small></div></footer>
+<script src="app.js"></script></body></html>
