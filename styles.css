@@ -49,3 +49,6 @@ textarea{min-height:120px}
   .main-nav ul{flex-direction:column;padding:1rem 0}
   .header-inner{flex-wrap:wrap}
 }
+
+/* Working-form additions */
+.invalid { border-color: var(--mint-dark) !important; outline: 2px solid var(--mint); }
